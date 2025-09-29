@@ -1,6 +1,6 @@
-# 🌳 Task 5: Decision Trees & Random Forests
+# Task 5: Decision Trees & Random Forests
 
-This project is part of the **AI & ML Internship**. The goal is to apply **tree-based models** (Decision Tree, Random Forest, and XGBoost) on the **Heart Disease dataset** and demonstrate both technical and interpretability skills.
+The goal is to apply **tree-based models** (Decision Tree, Random Forest) on the **Heart Disease dataset** and demonstrate both technical and interpretability skills.
 
 ---
 
@@ -123,7 +123,4 @@ Task5_DecisionTree_RandomForest/
 
 * Decision Trees are simple but prone to overfitting.
 * Random Forests improve generalization significantly.
-* XGBoost gives an extra boost in performance.
-* SHAP adds **interpretability**, making the model **explainable**.
 
-This project showcases **modeling + explainability**.
