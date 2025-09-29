@@ -60,14 +60,14 @@ The goal is to apply **tree-based models** (Decision Tree, Random Forest) on the
 ## 🎨 Visuals
 
 * **EDA Plots**
-  ![Target Distribution](images/eda_target_distribution.png)
-  ![Correlation Heatmap](images/eda_correlation_heatmap.png)
+  ![Target Distribution]
+  ![Correlation Heatmap]
 
 * **Model Interpretations**
-  ![Decision Tree](images/decision_tree.png)
-  ![Feature Importances](images/random_forest_feature_importance.png)
-  ![ROC Curve](images/roc_curve.png)
-  ![Confusion Matrix](images/confusion_matrix_rf.png)
+  ![Decision Tree]
+  ![Feature Importances]
+  ![ROC Curve]
+  ![Confusion Matrix]
 
 ---
 
@@ -96,15 +96,6 @@ Task5_DecisionTree_RandomForest/
 ├── notebooks/
 │   └── Task5.ipynb
 │
-├── images/
-│   ├── eda_target_distribution.png
-│   ├── eda_correlation_heatmap.png
-│   ├── decision_tree.png
-│   ├── random_forest_feature_importance.png
-│   ├── roc_curve.png
-│   ├── shap_summary.png
-│   └── confusion_matrix_rf.png
-│
 ├── requirements.txt
 └── README.md
 ```
@@ -115,5 +106,6 @@ Task5_DecisionTree_RandomForest/
 
 * Decision Trees are simple but prone to overfitting.
 * Random Forests improve generalization significantly.
+
 
 
