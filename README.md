@@ -33,7 +33,6 @@ The goal is to apply **tree-based models** (Decision Tree, Random Forest) on the
 
    * **Decision Tree** (visualized with Graphviz/dtreeviz).
    * **Random Forest** (ensemble model, reduces overfitting).
-   * **XGBoost** (extra benchmark for better accuracy).
 
 3. **Overfitting Analysis**
 
@@ -45,11 +44,6 @@ The goal is to apply **tree-based models** (Decision Tree, Random Forest) on the
    * Cross-validation (k=5).
    * Confusion matrices.
 
-5. **Explainability**
-
-   * Feature importance (RF vs XGBoost).
-   * **SHAP values** → global + local explanations.
-
 ---
 
 ## 📈 Results (Sample – update with your runs)
@@ -58,9 +52,8 @@ The goal is to apply **tree-based models** (Decision Tree, Random Forest) on the
 | --------------- | -------- | --------- | ------ | -------- | ------- |
 | Decision Tree   | 78%      | 76%       | 74%    | 75%      | 0.79    |
 | Random Forest   | 85%      | 84%       | 83%    | 83%      | 0.89    |
-| XGBoost (extra) | 87%      | 85%       | 86%    | 85%      | 0.91    |
 
-✅ Random Forest & XGBoost consistently outperformed a single Decision Tree.
+✅ Random Forest consistently outperformed a single Decision Tree.
 
 ---
 
@@ -74,7 +67,6 @@ The goal is to apply **tree-based models** (Decision Tree, Random Forest) on the
   ![Decision Tree](images/decision_tree.png)
   ![Feature Importances](images/random_forest_feature_importance.png)
   ![ROC Curve](images/roc_curve.png)
-  ![SHAP Summary](images/shap_summary.png)
   ![Confusion Matrix](images/confusion_matrix_rf.png)
 
 ---
@@ -123,4 +115,5 @@ Task5_DecisionTree_RandomForest/
 
 * Decision Trees are simple but prone to overfitting.
 * Random Forests improve generalization significantly.
+
 
